@@ -1,0 +1,9 @@
+ {
+	"dbURL" : "mongodb://journalswiftuser:bailey0057@ds035573.mongolab.com:35573/journalswift", 
+	"sessionSecret" : "LSKJFLJLSDJDSLFJFL9879757578799", 
+	"fb": {
+		"appID": "480297828796194",
+		"appSecret": "468712ded773351252862b3fd2429406", 
+		"callbackURL": "http://localhost:3000/auth/facebook/callback" 
+	}
+}
