@@ -9,6 +9,7 @@ var ConnectMongo = require('connect-mongo')(session);
 var mongoose = require('mongoose').connect(config.dbURL);
 var passport = require('passport');
 var FacebookStrategy = require('passport-facebook').Strategy;
+
  
 var port = 3000; 
 

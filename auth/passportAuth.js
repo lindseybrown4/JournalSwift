@@ -17,7 +17,7 @@ module.exports = function(passport, FacebookStrategy, config, mongoose){
 			done(err, user); 
 		})
 	})
-
+	
 	passport.use(new FacebookStrategy({
 		clientID: config.fb.appID, 
 		clientSecret: config.fb.appSecret, 
@@ -37,11 +37,7 @@ module.exports = function(passport, FacebookStrategy, config, mongoose){
 				newjournalswiftuser.save(function(err){
 					done(null, newjournalswiftuser); 
 				})
-
 			}
-
 		}) 
 	}))
-
-
 }
